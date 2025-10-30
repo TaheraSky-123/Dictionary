@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dictionary App</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="search-box">
+      <input type="text" id="inp-word" placeholder="Enter a word" aria-label="Enter a word to search" />
+      <button id="search-btn" aria-label="Search for word">Search</button>
+    </div>
+
+    <div id="result" class="result"></div>
+
+    <div class="history">
+      <h4>Recent Searches:</h4>
+      <div id="history-list" class="history-list"></div>
+    </div>
+
+    <audio id="sound"></audio>
+  </div>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+
+
